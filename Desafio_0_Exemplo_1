@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+
+   function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+
+    }
+        
+    var numeros = ["1", "2", "3", "4"];
+
+    mostra(numeros[0]);
+    mostra(numeros[2]);
+
+</script>
